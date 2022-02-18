@@ -1,0 +1,15 @@
+{
+  "name": "qrsvc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Cloudflare Worker that returns a QR code for a given string",
+  "author": "github.com/dr-useless",
+  "license": "MIT",
+  "main": "qrsvc.js",
+  "scripts": {
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  }
+}
