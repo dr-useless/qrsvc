@@ -4,12 +4,10 @@ Serverless QR code service
 ## Usage
 Simply put the data in the path of the request.
 
-For example:
+### Example
 ```
 https://qrsvc.dr-useless.workers.dev/https://github.com/dr-useless/qrsvc
-```
-
-Renders as:
+``` 
 ![for example](https://qrsvc.dr-useless.workers.dev/https://github.com/dr-useless/qrsvc)
 
 ## Deploy in seconds
